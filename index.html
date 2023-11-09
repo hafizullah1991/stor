@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hafiz store</title>
+  <link rel="stylesheet" href="./css/style.css" >
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+<header class="header">
+  <div class="nav container">
+    <a href="#" class="logo"> Hafizcom </a>
+    <!-- logo cart icon -->
+    <i class='bx bxs-shopping-bag' id="cart-icon"></i>
+    <!-- Cart -->
+     <div class="cart">
+    <h2 class="cart-title">Your cart</h2>
+    <!-- content -->
+    <div class="cart-content">
+    <div class="cart-box">
+      <img src="./images/Cream.jpg" alt="" class="cart-img">
+      <div class="detail-box">
+        <div class="cart-product-title">
+          cream</div>
+<div class="cart-price">$ 45</div>
+        <input type="number" value="1" class="cart-quantity">
+      </div>
+      <!-- remove cart -->
+      <i class='bx bxs-trash-alt cart-remove' ></i>
+    </div>
+    </div>
+    <!-- total -->
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">$ 0</div>
+    </div>
+    <!-- buy button -->
+    <a href=" file:///C:/Users/ahmad/Desktop/Angilena%20class/Only%20projects/PROJECTSTORE/css/check.html">
+    <button type="button" class="btn-buy">Buy Now</button></a>
+    <!-- cart close -->
+    <i class='bx bx-x' id="close-cart"></i>
+  </div>
+
+  </div>
+</header>
+  <!-- section shop -->
+  <section class="shop container">
+    <h2 class="section-title"> shop products</h2>
+    <!-- black friday -->
+<div class="slideimage">
+  <div class="image">
+    <img src=".//images/Only from Hafiz Store.jpg" alt="">
+    
+  </div>
+  <div class="image">
+    <img src=".//images/costco.jpeg" alt="">
+    
+  </div>
+  <div class="image">
+    <img src=".//images/Hafiz banner.jpg" alt="">
+    
+  </div>
+</div>
+
+ 
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+
+  </div>
+</div>
+  
+    
+    <!-- content -->
+    <div class="shop-content">
+      <!-- box 1 -->
+      <div class="product-box">
+        <img src="./images/computer.jpg" alt="" class="product-img">
+        <h2 class="product-title">LAPTOP KING </h2>
+        <span class="price">$ 1200 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- 11 b -->
+      <div class="product-box">
+        <img src="./images/lukang electric handwarmar.webp" alt="" class="product-img">
+        <h2 class="product-title">Lukang Hand warmer</h2>
+        <span class="price">$ 10.25 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- 12 b -->
+      <div class="product-box">
+        <img src="./images/small powerbank.jpg" alt="" class="product-img">
+        <h2 class="product-title"> small powerbank </h2>
+        <span class="price">$ 30.22 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- 13b -->
+      <div class="product-box">
+        <img src="./images/watch.jpg" alt="" class="product-img">
+        <h2 class="product-title">J watch </h2>
+        <span class="price">$ 99.00 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- 13b -->
+      <div class="product-box">
+        <img src="./images/iphone.jpg" alt="" class="product-img">
+        <h2 class="product-title">Iphone15  </h2>
+        <span class="price">$ 1200 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- box2 -->
+      <div class="product-box">
+        <img src="./images/Cream.jpg" alt="" class="product-img">
+        <h2 class="product-title">HEMPTOM CREAM </h2>
+        <span class="price">$ 25 </span>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- box3 -->
+      <div class="product-box">
+        <img src="./images/cream2.jpg" alt="" class="product-img">
+        <h2 class="product-title">ORDINARY CREAM </h2>
+        <span class="price">$ 45 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- box4 -->
+      <div class="product-box">
+        <img src="./images/Drops.jpg" alt="" class="product-img">
+        <h2 class="product-title"> ORDINARY CREAM</h2>
+        <span class="price">$ 20 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+      <!-- box5 -->
+      <div class="product-box">
+        <img src="./images/kate.jpg" alt="" class="product-img">
+        <h2 class="product-title"> Kate Cream</h2>
+        <span class="price">$ 15 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+       <!-- box6 -->
+       <div class="product-box">
+        <img src="./images/lip.jpg" alt="" class="product-img">
+        <h2 class="product-title"> POWER LIPSTICK</h2>
+        <span class="price">$ 3 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+       <!-- box5 -->
+       <div class="product-box">
+        <img src="./images/makeup.jpg" alt="" class="product-img">
+        <h2 class="product-title"> VENUM EYES</h2>
+        <span class="price">$ 20.66 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+  <!-- box5 -->
+  <div class="product-box">
+    <img src="./images/straight cream.jpg" alt="" class="product-img">
+    <h2 class="product-title"> sun cream</h2>
+    <span class="price">$ 10 </span>
+    <div class="rating">
+      <span class="star">★</span>
+      <span class="star">★</span>
+      <span class="star">★</span>
+      <span class="star">★</span>
+      <span class="star">★</span>
+    </div>
+    <i class='bx bx-shopping-bag add-cart' ></i>
+  </div>
+
+    <!-- box5 -->
+    <div class="product-box">
+      <img src="./images/liquid pencil.jpg" alt="" class="product-img">
+      <h2 class="product-title"> liquid Pencel</h2>
+      <span class="price">$ 8.22 </span>
+      <div class="rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+      </div>
+      <i class='bx bx-shopping-bag add-cart' ></i>
+    </div>
+
+   
+        <!-- box5 -->
+        
+          <!-- box5 -->
+       <div class="product-box">
+        <img src="./images/s kettle.jpeg" alt="" class="product-img">
+        <h2 class="product-title"> Hot Kettle</h2>
+        <span class="price">$ 22.20 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+           <!-- box5 -->
+           <div class="product-box">
+            <img src="./images/s nonstick oven.jpeg " alt="" class="product-img">
+            <h2 class="product-title"> None stick oven</h2>
+            <span class="price">$ 18.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+               <!-- box5 -->
+       <div class="product-box">
+        <img src="./images/s round glass.jpg" alt="" class="product-img">
+        <h2 class="product-title"> round glass</h2>
+        <span class="price">$ 8.20 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+           <!-- box5 -->
+           <div class="product-box">
+            <img src="./images/s toaster.jpg" alt="" class="product-img">
+            <h2 class="product-title"> toaster</h2>
+            <span class="price">$ 36.10 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+               <!-- box5 -->
+       <div class="product-box">
+        <img src="./images/s silver sky.jpeg" alt="" class="product-img">
+        <h2 class="product-title"> silver sky earings</h2>
+        <span class="price">$ 55.25 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+
+      <div class="product-box">
+        <img src="./images/earings.jpg" alt="" class="product-img">
+        <h2 class="product-title"> thanks earings</h2>
+        <span class="price">$ 12.2 </span>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <i class='bx bx-shopping-bag add-cart' ></i>
+      </div>
+           <!-- box5 -->
+           <div class="product-box">
+            <img src="./images/s nick diamond.jpg" alt="" class="product-img">
+            <h2 class="product-title"> nick diamond</h2>
+            <span class="price">$ 520.20 </span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/shoe3.jpeg" alt="" class="product-img">
+            <h2 class="product-title"> Ny shoe</h2>
+            <span class="price">$ 53.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+
+          <div class="product-box">
+            <img src="./images/shoes2.jpg" alt="" class="product-img">
+            <h2 class="product-title"> party shoe</h2>
+            <span class="price">$ 30.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src=".//images/slide one.jpg" alt="" class="product-img">
+            <h2 class="product-title"> wicky sh</h2>
+            <span class="price">$ 20.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/slide2.jpeg" alt="" class="product-img">
+            <h2 class="product-title"> wicky party shoe</h2>
+            <span class="price">$ 40.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/slide2.webp" alt="" class="product-img">
+            <h2 class="product-title"> walking sand</h2>
+            <span class="price">$ 8.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          
+          <div class="product-box">
+            <img src="./images/shoes.jpg" alt="" class="product-img">
+            <h2 class="product-title"> new flex shoes</h2>
+            
+            <span class="price">$ 25.00 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+           
+          <div class="product-box">
+            <img src="./images/leather coach bag parent.jpg" alt="" class="product-img">
+            <h2 class="product-title"> parents bag</h2>
+            <span class="price">$ 8.00 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+           
+          <div class="product-box">
+            <img src="./images/leather coach bag parent3.jpg" alt="" class="product-img">
+            <h2 class="product-title"> stylish  bag</h2>
+            <span class="price">$ 21.00 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+           
+          <div class="product-box">
+            <img src="./images/leather coach bag.jpg" alt="" class="product-img">
+            <h2 class="product-title"> stylish bag </h2>
+            <span class="price">$ 15.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/leather coach bag2.jpg" alt="" class="product-img">
+            <h2 class="product-title"> stylish H bag </h2>
+            <span class="price">$ 17.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/thanks.jpg" width="auto" height="100%" alt="" class="product-img">
+            <h2 class="product-title">thanksgiving shirt </h2>
+            <span class="price">$ 6.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/thanks2.jpg" width="auto" height="100%" alt="" class="product-img">
+            <h2 class="product-title"> thanksgiving shirt </h2>
+            <span class="price">$ 6.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+          <div class="product-box">
+            <img src="./images/thanks3.jpg" width="auto" height="100%" alt="" class="product-img">
+            <h2 class="product-title"> thanksgiving shirt </h2>
+            <span class="price">$ 6.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+
+          <div class="product-box">
+            <img src="./images/thanks4.jpg" width="auto" height="100%" alt="" class="product-img">
+            <h2 class="product-title"> thanksgiving shirt </h2>
+            <span class="price">$ 6.20 </span>
+            <div class="rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+          </div>
+    </div>
+  </section>
+<section tesmonal>
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="title-head">Why Our Product?</h2>
+    <span class="hr"><hr></span>
+    <div class="row g-4 py-5 row-cols-1">
+        <div class="feature col d-flex justify-content-between">
+            <div class="feature-box" style="border: 2px solid #fd4646; border-radius: 10px; text-align: center;">
+                <h3 class="fs-2">Premium Quality</h3>
+                <p>We take pride in offering only the highest quality products. Our team meticulously selects and tests every item to ensure it meets our stringent quality standards. We believe that quality is not a compromise but a guarantee.</p>
+            </div>
+            <div class="feature-box" style="border: 2px solid #005cbf; border-radius: 10px; text-align: center;">
+                <h3 class="fs-2">Countrywide</h3>
+                <p>Working online in a globally connected world empowers individuals to transcend geographical boundaries, collaborate seamlessly, and contribute their talents to a vast and diverse digital landscape.</p>
+            </div>
+            <div class="feature-box" style="border: 2px solid #00a646; border-radius: 10px; text-align: center;">
+                <h3 class="bestQaulity">Customer-Centric:</h3>
+                <p>Our customers are at the heart of everything we do. We pride ourselves on providing top-tier customer support, a hassle-free shopping experience, and flexible return and exchange policies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="moving-border">
+      <p class="animated-sentence">Double the Delight: Enjoy twice the rewards – shop with us or use our credit card and receive two amazing gifts as our token of appreciation!</p>
+  </div>
+</div>
+
+
+
+  
+  </section>
+  <section visa>
+
+
+  <div class="promotion">
+    <h1>Unlock Exciting Benefits with Our Credit Card!</h1>
+    <div class="benefits">
+        <div class="benefit">
+            <h2>4% Cashback on Gas</h2>
+            <p>Enjoy 4% cashback on all your gas purchases at eligible gas stations.</p>
+        </div>
+        <div class="benefit">
+            <h2>3% Cashback on Travels</h2>
+            <p>Get 3% cashback on expenses related to restaurants and travel adventures.</p>
+        </div>
+        <div class="benefit">
+            <h2>2% Cashback at Costco</h2>
+            <p>Shop at Costco and receive 2% cashback on your purchases.</p>
+        </div>
+        <div class="benefit">
+            <h2>1% Cashback on Other Purchases</h2>
+            <p>Earn 1% cashback on all other purchases made with your credit card.</p>
+        </div>
+    </div>
+    <a href="https://www.costco.com/credit-card.html" class="cta-button">Apply Now</a>
+</div>
+  </section>
+
+  
+   <!-- appreciation -->
+   <div class="appreciate">
+    <div class="box">
+      <h3 class="thanks">If I were AGM I woud be like Megan Joseph</h3>
+      
+      <div class="box-description"> Who greets each day with a smile, listens attentively to employees, and wholeheartedly values and cares for their well-being is simply exceptional,  a steadfast source of support and inspiration, plays a pivotal role in fostering a workplace culture where employees feel valued and empowered to thrive.""</div>
+    </div>
+
+    <div class="box">
+      <h3 class="thanks">If I were Manager I woud be like Angelina</h3>
+      
+      <div class="box-description">"An outstanding manager combines a tranquil presence with a consistently pleasant and upbeat attitude. her ability to maintain a sense of calm, while radiating genuine happiness, truly defines what it means to be a remarkable leader."</div>
+    </div>
+
+    <div class="box">
+      <h3 class="thanks">If I were supervisor I woud be like Rovic</h3>
+      
+      <div class="box-description">"A supervisor who wears a constant smile, treats employees with exceptional kindness, transcends the traditional role of authority, and instead becomes a trusted friend is a source of immense inspiration. Their infectious motivation and genuine camaraderie create an uplifting work environment that is truly cherished by all."</div>
+    </div>
+  </div>
+
+<section footer>
+  <hr> <hr>
+  <div class="footer">
+     <h2 id="copy">&copy Contact Us</h2> 
+
+    <div class="facebook"><i class='bx bxl-facebook-circle'></i></div>
+    <div class="twitter"><i class='bx bxl-twitter bx-tada' id="twitter" ></i></div>
+    <div class="instagram"><i class='bx bxl-instagram-alt bx-spin' ></i></div>
+  </div>
+</section>
+<!-- link to JS -->
+<script src="./css/main.js"></script>
+    
+
+ </script>
+
+
+</body>
+</html>
